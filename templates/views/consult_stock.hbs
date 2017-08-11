@@ -1,0 +1,8 @@
+{{!< default}}
+<div class="container">
+	<div class="jumbotron">
+		<h2>Stock de bebidas</h2>
+		{{#each drinks}}
+		  <div>Nome: {{name.first}} | Custo: {{price}} | Quantidade: {{stock}}</div>
+	  {{/each}}
+</div>
